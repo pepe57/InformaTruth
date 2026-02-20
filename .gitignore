@@ -29,15 +29,42 @@ ENV/
 env.bak/
 venv.bak/
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+dist-ssr/
+*.local
+
+# JavaScript/TypeScript
+.eslintcache
+.stylelintcache
+.prettiercache
+.parcel-cache
+.cache
+.next
+out
+.nuxt
+.vite
+.docusaurus
+
 # Environment variables
 .env
 .env.local
+.env.*.local
 
 # IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
 # Logs
 logs/
@@ -64,3 +91,8 @@ final_lint_report.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# AI Assistant
+.agent/
+.gemini/
+.ai/
